@@ -49,10 +49,8 @@
   --modular-accent: #a57562; /* Accent color */
   --modular-flavor: "Rosebox"; /* Flavor name */
 
-  /* [[ BORDERS ]] */
-  --modular-enable-border: 0; /* 1 to enable, 0 to disable. Default is 0 */
+  /* [[ CHAT BUBBLES ]] */
   --modular-cb-width: max-content; /* 100% for chat bubbles spanning the entire screen / max-content for dynamic width, Default is max-content */
-  --modular-border-color: var(--modular-accent);
 
   /* [[ FONT CHANGE ]] */
   --font-main: "Inter";
@@ -64,8 +62,6 @@
   /* column-reverse for user panel on top */
   --modular-guild-orientation: row;
   /* row-reverse for guild bar on the right */
-  --modular-client-orientation: row;
-  /* row-reverse for server list and user panel on the right */
   --modular-memberlist-orientation: row;
   /* row-reverse for member list on the left */
   --modular-friendlist-orientation: row;
