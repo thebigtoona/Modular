@@ -7,7 +7,7 @@
 ![Static Badge](https://img.shields.io/badge/supports-vencord-red?style=for-the-badge)
 
 > [!IMPORTANT]
-> The theme has been largely rewritten. Please update to the latest version to ensure functionality.
+> v2.1.1 has modified some elements in the `modular.theme.css` file. It is recommended to reload this file for the best experience.
 
 ## Introduction
 
