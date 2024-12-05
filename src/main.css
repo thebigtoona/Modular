@@ -737,12 +737,12 @@ rect[fill="#593695"] {
   line-height: 1rem !important;
 
   &:not(:has(time)) {
-    background: var(--brand-600);
+    background: var(--base00);
     padding: 0 4px 0 2px;
   }
 
   &:has(time) {
-    background: var(--brand-600);
+    background: var(--base00);
     padding: 0 4px;
   }
 }

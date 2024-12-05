@@ -20,6 +20,26 @@
 
 :root {
   /*
+  Black metal venom colors
+  */
+  --base00: #000000;
+  --base01: #121212;
+  --base02: #222222;
+  --base03: #333333;
+  --base04: #999999;
+  --base05: #c1c1c1;
+  --base06: var(--base04);
+  --base07: var(--base05);
+  --base08: #5f8787;
+  --base09: #aaaaaa;
+  --base0A: #79241f;
+  --base0B: #f8f7f2;
+  --base0C: var(--base09);
+  --base0D: #888888;
+  --base0E: var(--base04);
+  --base0F: #444444;
+
+  /*
 	* [[ BACKGROUND ]]
 	* Change to none for solid or add a background (must be an URL) */
   --modular-background: none !important;
@@ -27,27 +47,27 @@
   /* in px, Default is 10px */
 
   /* [[ DISCORD COLORS ]] */
-  --modular-red: #bf616a;
-  --modular-yellow: #ebcb8b;
-  --modular-green: #a3be8c;
-  --modular-orange: #d08770;
-  --modular-teal: #b48ead;
-  --modular-blue: #88c0d0;
+  --modular-red: var(--base0A);
+  --modular-yellow: var(--base08);
+  --modular-green: var(--base08);
+  --modular-orange: var(--base0A);
+  --modular-teal: var(--base08);
+  --modular-blue: var(--base08);
 
   /* [[ BASE COLORS ]] */
-  --modular-bg0: #262626; /* Primary background color */
-  --modular-bg1: #202020; /* Secondary background color */
-  --modular-bg2: #151515; /* Tertiary background color */
-  --modular-bg3: #323232; /* Quarterary background color */
-  --modular-bg4: #393939; /* Modifier/hover/select background color */
+  --modular-bg0: var(--base00); /* Primary background color */
+  --modular-bg1: var(--base01); /* Secondary background color */
+  --modular-bg2: var(--base02); /* Tertiary background color */
+  --modular-bg3: var(--base03); /* Quarterary background color */
+  --modular-bg4: var(--base02); /* Modifier/hover/select background color */
 
-  --modular-text0: #d8c8c4; /* Normal text color */
-  --modular-text1: #f6f1ef; /* Brighter text color */
-  --modular-text2: #cab5b1; /* Darker text color */
+  --modular-text0: var(--base05); /* Normal text color */
+  --modular-text1: var(--base0B); /* Brighter text color */
+  --modular-text2: var(--base0F); /* Darker text color */
 
   /* [[ BRAND COLORS ]] */
-  --modular-accent: #a57562; /* Accent color */
-  --modular-flavor: "Rosebox"; /* Flavor name */
+  --modular-accent: var(--base08); /* Accent color */
+  --modular-flavor: "Black Metal Venom"; /* Flavor name */
 
   /* [[ CHAT BUBBLES ]] */
   --modular-cb-width: max-content; /* 100% for chat bubbles spanning the entire screen / max-content for dynamic width, Default is max-content */
@@ -68,6 +88,8 @@
   /* row-reverse for now playing tab on the left */
 
   /* [[ SPOTIFY TRACK BACKGROUND ]] */
-  --modular-spotify-bg-blur: 2px; /* higher px = stronger blur, 0 = no blur */
-  --modular-spotify-darken: 0.5; /* 0 = album cover is not darkened, 1 = album cover is darkened fully (black) */
+  --modular-spotify-bg-blur: 2px;
+  /* higher px = stronger blur, 0 = no blur */
+  --modular-spotify-darken: 0.5;
+  /* 0 = album cover is not darkened, 1 = album cover is darkened fully (black) */
 }
