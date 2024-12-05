@@ -690,7 +690,7 @@ rect[fill="#593695"] {
 [class^="repliedMessage_"] > .username_f9f2ca,
 .member_a31c43 .username_d272d6 {
   filter: brightness(1.2);
-  background: color-mix(in srgb, currentColor 20%, transparent);
+  background: color-mix(in srgb,currentColor 20%, transparent);
 
   font-weight: bold;
   margin-right: 4px;
@@ -737,12 +737,12 @@ rect[fill="#593695"] {
   line-height: 1rem !important;
 
   &:not(:has(time)) {
-    background: var(--base00);
+    background: var(--brand-600);
     padding: 0 4px 0 2px;
   }
 
   &:has(time) {
-    background: var(--base00);
+    background: var(--brand-600);
     padding: 0 4px;
   }
 }
@@ -930,7 +930,7 @@ rect[fill="#593695"] {
     display: block;
     height: 100%;
     width: 100%;
-    background: #00000099 !important;
+    background: #00000000 !important;
     opacity: 0.5;
     z-index: -1;
     background: inherit;
